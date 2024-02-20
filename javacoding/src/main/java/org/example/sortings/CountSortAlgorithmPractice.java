@@ -42,7 +42,7 @@ public class CountSortAlgorithmPractice {
 
     private static int findingMaxValue(int[] a) {
         int max = a[0];
-
+        //finding the maximum element
         for (int i = 1; i < a.length; i++) {
             if (max < a[i]) {
                 max = a[i];
